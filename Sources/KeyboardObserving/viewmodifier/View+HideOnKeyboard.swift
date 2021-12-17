@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 13.0, *)
 extension View {
   /// Automatically hides the view when keyboard is shown.
   /// - Warning: A Keyboard must be available in the Environment.

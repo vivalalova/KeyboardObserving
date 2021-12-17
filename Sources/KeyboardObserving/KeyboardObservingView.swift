@@ -10,6 +10,7 @@ import SwiftUI
 ///
 /// Important: A Keyboard must be available in the Environment.
 ///
+@available(iOS 13.0, *)
 public struct KeyboardObservingView<Content: View>: View {
 
   @EnvironmentObject var keyboard: Keyboard

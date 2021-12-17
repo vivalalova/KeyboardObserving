@@ -9,6 +9,7 @@ import UIKit
 import Combine
 
 /// An object representing the keyboard
+@available(iOS 13.0, *)
 public final class Keyboard: ObservableObject {
 
   // MARK: - Published Properties
@@ -38,6 +39,7 @@ public final class Keyboard: ObservableObject {
 }
 
 // MARK: - Nested Types
+@available(iOS 13.0, *)
 extension Keyboard {
 
   public struct State {

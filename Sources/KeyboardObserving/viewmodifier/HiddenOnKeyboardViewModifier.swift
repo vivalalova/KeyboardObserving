@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 13.0, *)
 struct HiddenOnKeyboardViewModifier: ViewModifier {
   @EnvironmentObject private var keyboard: Keyboard
 
